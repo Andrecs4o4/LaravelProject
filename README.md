@@ -2,7 +2,7 @@
 
 Aplikasi inventaris barang sekolah menggunakan Framework Laravel 8.
 
-(Cloned from [Andre Christian Surbakti/inven-bs](https://github.com/Andrecs4o4/Laravel_Project) with some modifications based on my requirement, please refer there for official update and the newest change)
+(Cloned from [Andre Christian Surbakti/](https://github.com/Andrecs4o4/Laravel_Project) with some modifications based on my requirement, please refer there for official update and the newest change)
 
 ### Prasyarat
 
@@ -29,11 +29,11 @@ Jika Anda menggunakan XAMPP, untuk PHP dan MySQL sudah menjadi 1 (bundle) didala
 -   Clone repository ini
 
 ```
-https://github.com/mrizkimaulidan/inven-bs.git
+https://github.com/Andrecs4o4/LaravelProject
 ```
 
 ```
-git@github.com:mrizkimaulidan/inven-bs.git
+https://github.com/Andrecs4o4/LaravelProject
 ```
 
 -   Install seluruh packages yang dibutuhkan
