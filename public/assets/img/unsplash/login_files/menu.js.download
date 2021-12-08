@@ -1,0 +1,42 @@
+
+function msieversion() {
+   var ua = window.navigator.userAgent;
+   var msie = ua.indexOf ("MSIE");
+   if (msie > 0)
+      return parseInt (ua.substring(msie+5,ua.indexOf(".",msie)));
+   else return 0;
+}
+
+window.IEVersion = msieversion();
+
+if(window.IEVersion >= 4) {
+   document.onmouseover = doDocumentOnMouseOver;
+   document.onmouseout = doDocumentOnMouseOut;
+}
+
+var lastMenuColor = "#0000aa";
+var lasteSrc;
+
+
+function doDocumentOnMouseOver() {
+   var eSrc = window.event.srcElement;
+   if(eSrc.className == "MENU") {
+      eSrc.style.color = "#00ffdd";
+   }
+   if(eSrc.className == "MENUHEAD") {
+      eSrc.style.color = "#00ffdd";
+   }
+   return true;
+}
+
+function doDocumentOnMouseOut() {
+   var eSrc = window.event.srcElement;
+   if(eSrc.className == "MENU") {
+      eSrc.style.color = "#eeeeee";
+   }
+   if(eSrc.className == "MENUHEAD") {
+      eSrc.style.color = "#eeeeee";
+   }
+}
+
+
