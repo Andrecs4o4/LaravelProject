@@ -72,7 +72,7 @@ Silahkan request melalui kolom `Pull Requests` jika ingin melakukan kontribusi
 
 ### Pembuat
 
--   **** - _Programmer_ - [Andre Christian Surbakti](https://github.com/Andrecs4o4/Laravel_Project)
+-   **Andre** - _Programmer_ - [Andre Christian Surbakti](https://github.com/Andrecs4o4/Laravel_Project)
 
 ### Lisensi
 
